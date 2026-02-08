@@ -91,7 +91,6 @@
 	// the tick event is triggered in every position change
 	player.ontick=function(song, position){
 		pos.value=position;
-		document.title = [osmd.cursor.iterator.currentTimeStamp.realValue, position]
 		if(osmd.cursor.iterator.currentTimeStamp.realValue < position-1)
 		{
 			osmd.cursor.next();
@@ -123,7 +122,7 @@
 	}
 	
 	
-	player.handleUrl('sherina.mid');
+	player.handleUrl('rosa.mid');
 
         
 	</script>
